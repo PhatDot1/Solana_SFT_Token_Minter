@@ -13,13 +13,13 @@ mod token_vault {
 
     pub fn transfer_in(_ctx: Context<TransferAccounts>, amount: u64) -> Result<()> {
         msg!("Token amount transfer in: {}!", amount);
-        // See Tutorial page 6
+
         Ok(())
     }
 
     pub fn transfer_out(_ctx: Context<TransferAccounts>, amount: u64) -> Result<()> {
         msg!("Token amount transfer out: {}!", amount);
-        // See Tutorial page 7
+
         Ok(())
     }
 }
