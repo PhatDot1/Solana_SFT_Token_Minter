@@ -1,8 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 
-// This is your program's public key and it will update
-// automatically when you build the project.
+// Programs public key - will update automatically when you build the project.
 declare_id!("CHTmeb4bAApo1BGcxwheAbsUrczkgvtV8E5grPmXSoFs");
 
 #[program]
